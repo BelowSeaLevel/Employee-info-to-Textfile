@@ -1,0 +1,29 @@
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\obj\Debug\New Employee Information ToTextFile.csprojAssemblyReference.cache
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\obj\Debug\New_Employee_Information_ToTextFile.Form1.resources
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\obj\Debug\New Employee Information ToTextFile.csproj.GenerateResource.cache
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\bin\Debug\New Employee Information ToTextFile.exe.config
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\bin\Debug\New Employee Information ToTextFile.exe
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\bin\Debug\New Employee Information ToTextFile.pdb
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\obj\Debug\New_Employee_Information_ToTextFile.Properties.Resources.resources
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\obj\Debug\New Employee Information ToTextFile.exe
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\obj\Debug\New Employee Information ToTextFile.pdb
+C:\Portfolio CSharp\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\bin\Debug\New Employee Information ToTextFile.exe.config
+C:\Portfolio CSharp\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\bin\Debug\New Employee Information ToTextFile.exe
+C:\Portfolio CSharp\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\bin\Debug\New Employee Information ToTextFile.pdb
+C:\Portfolio CSharp\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.csprojAssemblyReference.cache
+C:\Portfolio CSharp\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New_Employee_Information_ToTextFile.Form1.resources
+C:\Portfolio CSharp\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New_Employee_Information_ToTextFile.Properties.Resources.resources
+C:\Portfolio CSharp\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.csproj.GenerateResource.cache
+C:\Portfolio CSharp\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.exe
+C:\Portfolio CSharp\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.pdb
+E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\bin\Debug\New Employee Information ToTextFile.exe.config
+E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\bin\Debug\New Employee Information ToTextFile.exe
+E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\bin\Debug\New Employee Information ToTextFile.pdb
+E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.csproj.AssemblyReference.cache
+E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.csproj.SuggestedBindingRedirects.cache
+E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New_Employee_Information_ToTextFile.Form1.resources
+E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New_Employee_Information_ToTextFile.Properties.Resources.resources
+E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.csproj.GenerateResource.cache
+E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.csproj.CoreCompileInputs.cache
+E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.exe
+E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.pdb

@@ -1,0 +1,9 @@
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\bin\Debug\Save Information In TextFile.exe.config
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\bin\Debug\Save Information In TextFile.exe
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\bin\Debug\Save Information In TextFile.pdb
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\obj\Debug\Save Information In TextFile.csprojAssemblyReference.cache
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\obj\Debug\Save_Information_In_TextFile.Form1.resources
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\obj\Debug\Save_Information_In_TextFile.Properties.Resources.resources
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\obj\Debug\Save Information In TextFile.csproj.GenerateResource.cache
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\obj\Debug\Save Information In TextFile.exe
+C:\Portfolio CSharp\Windows Forms App CSharp\Save Information In TextFile\Save Information In TextFile\obj\Debug\Save Information In TextFile.pdb
