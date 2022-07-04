@@ -27,3 +27,14 @@ E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Informatio
 E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.csproj.CoreCompileInputs.cache
 E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.exe
 E:\Coding\Finished Applications\Windows Forms App CSharp\New Employee Information ToTextFile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.pdb
+C:\Users\brroo\Source\Repos\BelowSeaLevel\Employee-info-to-Textfile\New Employee Information ToTextFile\bin\Debug\New Employee Information ToTextFile.exe.config
+C:\Users\brroo\Source\Repos\BelowSeaLevel\Employee-info-to-Textfile\New Employee Information ToTextFile\bin\Debug\New Employee Information ToTextFile.exe
+C:\Users\brroo\Source\Repos\BelowSeaLevel\Employee-info-to-Textfile\New Employee Information ToTextFile\bin\Debug\New Employee Information ToTextFile.pdb
+C:\Users\brroo\Source\Repos\BelowSeaLevel\Employee-info-to-Textfile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.csproj.AssemblyReference.cache
+C:\Users\brroo\Source\Repos\BelowSeaLevel\Employee-info-to-Textfile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.csproj.SuggestedBindingRedirects.cache
+C:\Users\brroo\Source\Repos\BelowSeaLevel\Employee-info-to-Textfile\New Employee Information ToTextFile\obj\Debug\New_Employee_Information_ToTextFile.Form1.resources
+C:\Users\brroo\Source\Repos\BelowSeaLevel\Employee-info-to-Textfile\New Employee Information ToTextFile\obj\Debug\New_Employee_Information_ToTextFile.Properties.Resources.resources
+C:\Users\brroo\Source\Repos\BelowSeaLevel\Employee-info-to-Textfile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.csproj.GenerateResource.cache
+C:\Users\brroo\Source\Repos\BelowSeaLevel\Employee-info-to-Textfile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.csproj.CoreCompileInputs.cache
+C:\Users\brroo\Source\Repos\BelowSeaLevel\Employee-info-to-Textfile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.exe
+C:\Users\brroo\Source\Repos\BelowSeaLevel\Employee-info-to-Textfile\New Employee Information ToTextFile\obj\Debug\New Employee Information ToTextFile.pdb

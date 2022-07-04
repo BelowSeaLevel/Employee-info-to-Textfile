@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace New_Employee_Information_ToTextFile
 {
+    /// <summary>
+    /// Here we will make new "Person" objects to add to a text file.
+    /// </summary>
     public class Person
     {
         internal int ID;

@@ -78,7 +78,7 @@
             this.LabelId.AutoSize = true;
             this.LabelId.Location = new System.Drawing.Point(218, 41);
             this.LabelId.Name = "LabelId";
-            this.LabelId.Size = new System.Drawing.Size(21, 17);
+            this.LabelId.Size = new System.Drawing.Size(20, 16);
             this.LabelId.TabIndex = 5;
             this.LabelId.Text = "ID";
             // 
@@ -87,7 +87,7 @@
             this.LabelName.AutoSize = true;
             this.LabelName.Location = new System.Drawing.Point(218, 69);
             this.LabelName.Name = "LabelName";
-            this.LabelName.Size = new System.Drawing.Size(45, 17);
+            this.LabelName.Size = new System.Drawing.Size(44, 16);
             this.LabelName.TabIndex = 6;
             this.LabelName.Text = "Name";
             // 
@@ -96,7 +96,7 @@
             this.LabelLastname.AutoSize = true;
             this.LabelLastname.Location = new System.Drawing.Point(218, 97);
             this.LabelLastname.Name = "LabelLastname";
-            this.LabelLastname.Size = new System.Drawing.Size(70, 17);
+            this.LabelLastname.Size = new System.Drawing.Size(66, 16);
             this.LabelLastname.TabIndex = 7;
             this.LabelLastname.Text = "Lastname";
             // 
@@ -105,7 +105,7 @@
             this.LabelEmail.AutoSize = true;
             this.LabelEmail.Location = new System.Drawing.Point(218, 125);
             this.LabelEmail.Name = "LabelEmail";
-            this.LabelEmail.Size = new System.Drawing.Size(42, 17);
+            this.LabelEmail.Size = new System.Drawing.Size(41, 16);
             this.LabelEmail.TabIndex = 8;
             this.LabelEmail.Text = "Email";
             // 
@@ -144,7 +144,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(354, 450);
+            this.ClientSize = new System.Drawing.Size(371, 458);
             this.Controls.Add(this.ButtonShowPeople);
             this.Controls.Add(this.ButtonAddNewPerson);
             this.Controls.Add(this.RichTextBox);
@@ -157,7 +157,7 @@
             this.Controls.Add(this.TextBoxName);
             this.Controls.Add(this.TextBoxId);
             this.Name = "Form1";
-            this.Text = "Save Information To TextFile";
+            this.Text = "Save Employee Info";
             this.ResumeLayout(false);
             this.PerformLayout();
 
