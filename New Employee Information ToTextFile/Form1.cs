@@ -13,14 +13,17 @@ namespace New_Employee_Information_ToTextFile
 {
     public partial class Form1 : Form
     {
+        // The path where we want to save the text file.
         public static readonly string path = @"C:\Portfolio CSharp\Windows Forms App CSharp\New Employee Information ToTextFile";
+        // Path + File name.
         public static readonly string textFile = path + @"\EmployeeData.txt";
 
-
+        // Gets the date & Time
         private static readonly DateTime dt = DateTime.Now;
+        // Converts 'dt' into the correct format of date and time.
         readonly string dateOfMaking = dt.ToString("dd-MM-yyyy HH:mm");
 
-
+        // Fiels for the employee information.
         private int id;
         private string name;
         private string lastName;
@@ -31,12 +34,18 @@ namespace New_Employee_Information_ToTextFile
             InitializeComponent();
         }
 
-        
 
+        /// <summary>
+        /// Creates the file & path. And appends the employee information to this file.
+        /// </summary>
         public void CreateAndAppend(Person p, string dt)
         {
+            // Formats the information into a string
             string appendContent = $"ID: {p.ID} \nName: {p.NAME} \nLastName: {lastName} \nEmail: {p.EMAIL} \nDate Of Creation: {dt} \n\n";
 
+
+            // Creates a path & file if it doesn't exist yet.
+            // Or just appends the employee information to the text file, if the path already exists.
             try
             {
                 if (!Directory.Exists(path))
@@ -49,6 +58,7 @@ namespace New_Employee_Information_ToTextFile
                     File.AppendAllText(textFile, appendContent);
                 }
             }
+            // Catches any Exceptions, and displays it to the user.
             catch (Exception e)
             {
                 MessageBox.Show(e.Message.ToString());
@@ -58,7 +68,9 @@ namespace New_Employee_Information_ToTextFile
         }
 
 
-
+        /// <summary>
+        /// Reads the employee file.
+        /// </summary>
         public void ReadFile()
         {
             try
@@ -72,8 +84,12 @@ namespace New_Employee_Information_ToTextFile
             }
         }
 
+
         #region TextBoxes
 
+        /// <summary>
+        /// Checks all changes to the ID Textbox.
+        /// </summary>
         private void TextBoxId_TextChanged(object sender, EventArgs e)
         {
             if(TextBoxId.Text == "")
@@ -118,6 +134,10 @@ namespace New_Employee_Information_ToTextFile
 
 
         #region Buttons
+
+        /// <summary>
+        /// Creates a person object. And then adds it to the employee file.
+        /// </summary>
         private void ButtonAddNewPerson_Click(object sender, EventArgs e)
         {
             Person person = new Person()
@@ -133,6 +153,9 @@ namespace New_Employee_Information_ToTextFile
             MessageBox.Show("New person added.");
         }
 
+        /// <summary>
+        /// Calls the 'ReadFile' method to read the employee file.
+        /// </summary>
         private void ButtonShowPeople_Click(object sender, EventArgs e)
         {
             ReadFile();
