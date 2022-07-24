@@ -10,7 +10,7 @@ namespace New_Employee_Information_ToTextFile
     /// Person objects, to add to a text file.
     /// </summary>
     public class Person
-    
+    { 
         internal int ID;
         internal string NAME;
         internal string LASTNAME;
