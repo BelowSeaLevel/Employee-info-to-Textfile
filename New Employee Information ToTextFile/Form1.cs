@@ -14,7 +14,7 @@ namespace New_Employee_Information_ToTextFile
     public partial class Form1 : Form
     {
         // The path where we want to save the text file.
-        public static readonly string path = @"C:\Portfolio CSharp\Windows Forms App CSharp\New Employee Information ToTextFile";
+        public static readonly string path = @"C:\Employee Information";
         // Path + File name.
         public static readonly string textFile = path + @"\EmployeeData.txt";
 
@@ -44,27 +44,18 @@ namespace New_Employee_Information_ToTextFile
             string appendContent = $"ID: {p.ID} \nName: {p.NAME} \nLastName: {lastName} \nEmail: {p.EMAIL} \nDate Of Creation: {dt} \n\n";
 
 
-            // Creates a path & file if it doesn't exist yet.
+            // Creates a path & file, if it doesn't exist yet.
             // Or just appends the employee information to the text file, if the path already exists.
-            try
+            if (!Directory.Exists(path))
             {
-                if (!Directory.Exists(path))
-                {
-                    Directory.CreateDirectory(path);
-                    File.WriteAllText(textFile, appendContent);
-                }
-                else
-                {
-                    File.AppendAllText(textFile, appendContent);
-                }
+                Directory.CreateDirectory(path);
+                File.WriteAllText(textFile, appendContent);
             }
-            // Catches any Exceptions, and displays it to the user.
-            catch (Exception e)
+            else
             {
-                MessageBox.Show(e.Message.ToString());
+                File.AppendAllText(textFile, appendContent);
             }
 
-            
         }
 
 
@@ -73,56 +64,48 @@ namespace New_Employee_Information_ToTextFile
         /// </summary>
         public void ReadFile()
         {
-            try
-            {
-                string read = File.ReadAllText(textFile);
-                RichTextBox.Text = read;
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("No file to read from.");
-            }
+            string read = File.ReadAllText(textFile);
+            RichTextBox.Text = read;
         }
 
 
         #region TextBoxes
 
-        /// <summary>
-        /// Checks all changes to the ID Textbox.
-        /// </summary>
+
+        // Checks all changes to the ID Textbox.
+        // And stores them in "id".
         private void TextBoxId_TextChanged(object sender, EventArgs e)
         {
-            if(TextBoxId.Text == "")
+            try
             {
-                
+                id = int.Parse(TextBoxId.Text);
             }
-            else
+            catch (FormatException)
             {
-                try
-                {
-                    id = int.Parse(TextBoxId.Text);
-                }
-                catch (Exception)
-                {
-                    MessageBox.Show("This field requires numbers.");
-                    TextBoxId.Clear();
-                }
-                
+                MessageBox.Show("This field requires numbers.");
+                TextBoxId.Clear();
             }
-            
-            
+
+
         }
 
+
+        // Checks all changes to the Name Textbox.
+        // And stores them in "name".
         private void TextBoxName_TextChanged(object sender, EventArgs e)
         {
             name = TextBoxName.Text;
         }
 
+        // Checks all changes to the LastName Textbox.
+        // And stores them in "lastName".
         private void TextBoxLastname_TextChanged(object sender, EventArgs e)
         {
             lastName = TextBoxLastname.Text;
         }
 
+        // Checks all changes to the Email Textbox.
+        // And stores them in "eMail".
         private void TextBoxEmail_TextChanged(object sender, EventArgs e)
         {
             eMail = TextBoxEmail.Text;
@@ -148,9 +131,18 @@ namespace New_Employee_Information_ToTextFile
                 EMAIL = eMail
             };
 
-            CreateAndAppend(person, dateOfMaking);
+            try
+            {
+                CreateAndAppend(person, dateOfMaking);
+                MessageBox.Show("New person added.");
+            }
+            catch (Exception a) // Catches any Exceptions, and displays it to the user.
+            {
+                MessageBox.Show(a.Message.ToString());
+            }
 
-            MessageBox.Show("New person added.");
+
+
         }
 
         /// <summary>
@@ -158,7 +150,15 @@ namespace New_Employee_Information_ToTextFile
         /// </summary>
         private void ButtonShowPeople_Click(object sender, EventArgs e)
         {
-            ReadFile();
+            try
+            {
+                ReadFile();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("No file to read from.");
+            }
+
         }
 
         #endregion
